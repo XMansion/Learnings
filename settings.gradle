@@ -1,0 +1,7 @@
+println 'LC: This is executed during initialisation phase'
+include 'app'
+include 'core'
+include 'aerospike-client'
+include 'ironman'
+include 'ds'
+

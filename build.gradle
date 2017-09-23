@@ -1,0 +1,19 @@
+subprojects {
+	apply plugin: 'java'
+
+    repositories {
+        mavenCentral()
+    }
+}
+
+project(':core') {
+
+}
+
+project(':app') {
+
+}
+
+project(':ds') {
+
+}

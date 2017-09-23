@@ -36,4 +36,4 @@ overridedb.*
 .DS_Store
 .factorypath
 *.log
-
+*.dat
