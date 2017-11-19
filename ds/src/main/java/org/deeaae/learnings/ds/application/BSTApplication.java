@@ -1,17 +1,27 @@
 package org.deeaae.learnings.ds.application;
 
 import org.deeaae.learnings.ds.BinaryTreeNode;
-import org.deeaae.learnings.ds.arrays.FindSubarrayWithSumN;
-import org.deeaae.learnings.ds.arrays.Kadanes;
-import org.deeaae.learnings.ds.linkedlist.misc.CheckIfPalindrome;
-import org.deeaae.learnings.ds.linkedlist.misc.ReverseLinkList;
-import org.deeaae.learnings.ds.linkedlist.misc.SumOfLL;
+import org.deeaae.learnings.ds.arrays.*;
+import org.deeaae.learnings.ds.dp.*;
+import org.deeaae.learnings.ds.linkedlist.misc.*;
+import org.deeaae.learnings.ds.numbers.FindNextPermutaion;
 import org.deeaae.learnings.ds.recursions.FibbonacciTailRecursion;
+import org.deeaae.learnings.ds.sorting.quicksort.QuickSort;
 import org.deeaae.learnings.ds.strings.PrintAllCombinatiionsOfBrackets;
+import org.deeaae.learnings.ds.trees.binaryTree.BTUtils;
+import org.deeaae.learnings.ds.trees.binaryTree.TreeWidth;
 import org.deeaae.learnings.ds.trees.binaryTree.bst.BST;
 import org.deeaae.learnings.ds.misc.filebackedqueue.FBQ;
+import org.deeaae.learnings.ds.trees.binaryTree.heap.BinaryHeap;
+import org.deeaae.learnings.ds.trees.binaryTree.heap.MedianOfInfinitestream;
+import org.deeaae.learnings.ds.trees.binaryTree.inprepost.PostfromPreNIn;
 import org.deeaae.learnings.ds.trees.binaryTree.nDitanceNodes.NodesNDistanceFromGivenNode;
 import org.deeaae.learnings.ds.trees.binaryTree.nDitanceNodes.NodesNDistanceFromRoot;
+import org.deeaae.learnings.ds.trees.binaryTree.sampleTrees.SampleTree;
+import org.deeaae.learnings.ds.trees.binaryTree.views.BottomView;
+import org.deeaae.learnings.ds.trees.binaryTree.views.LeftView;
+import org.deeaae.learnings.ds.trees.binaryTree.views.RightView;
+import org.deeaae.learnings.ds.trees.binaryTree.views.TopView;
 
 import java.util.UUID;
 
@@ -48,8 +58,8 @@ public class BSTApplication {
         bst.preOrderRecursive(bst.getRoot());
 
         System.out.println("\n\nBST Post Order Recursive");
-        bst.postOrderRecursive(bst.getRoot());
-*/
+        bst.postOrderRecursive(bst.getRoot());*/
+
         /*BigDecimal result = new Expression("SQRT(a^2 + b^2)").with("a","2.4").and("b","9.253").eval();
         System.out.println(result);*/
 
@@ -67,15 +77,44 @@ public class BSTApplication {
             }
         }*/
 
-        //NodesNDistanceFromRoot.executePrintNDistanceNodesFromRoot();
-        //NodesNDistanceFromGivenNode.executeNodesNDistanceFromGivenNode();
-        //PrintAllCombinatiionsOfBrackets.executePrintAllCombinatiionsOfBrackets();
-        //Kadanes.testKKadanes();
-        //FindSubarrayWithSumN.executeFindSubarrayWithSumN();
-        //FibbonacciTailRecursion.execute();
-        //ReverseLinkList.execute();
-        //CheckIfPalindrome.execute();
+        /*NodesNDistanceFromRoot.executePrintNDistanceNodesFromRoot();
+        NodesNDistanceFromGivenNode.executeNodesNDistanceFromGivenNode();
+        PrintAllCombinatiionsOfBrackets.executePrintAllCombinatiionsOfBrackets();
+        Kadanes.testKKadanes();
+        FindSubarrayWithSumN.executeFindSubarrayWithSumN();
+        FibbonacciTailRecursion.execute();
+        ReverseLinkList.execute();
+        CheckIfPalindrome.execute();
         SumOfLL.execute();
+        MergeList.execute();
+        StockBuyAndSell.execute();
+        DeleteDuplicatesinSortedList.execute();
+        DeleteLastOccurence.execute();
+        FibbonaciNumber.execute();
+        RotateArray.execute();
+        FindNextPermutaion.execute();
+        LeftView.execute();
+        RightView.execute();
+        TopView.execute();
+        BottomView.execute();
+        PostfromPreNIn.execute();
+        BTUtils.printDFS(SampleTree.getSampleTree1());
+        PostfromPreNIn.execute();
+        Knapsack01.execute();
+        LongestSeries_1.execute();
+        GoldMineProblem.execcute();
+        QuickSort.execute();
+
+        TreeWidth.execute();*/
+        //BinaryHeap.execute();
+        //MedianOfInfinitestream.execute();
+        //RotateArray.execute();
+        //LongestIncreasingSubsequence.execute();
+        //LongestCommonSubsequence.execute();
+        //Frequencies.execute();
+        MatrixColorZeroOne.execute();
+
+
 
         System.out.println("\n\nBye.");
     }

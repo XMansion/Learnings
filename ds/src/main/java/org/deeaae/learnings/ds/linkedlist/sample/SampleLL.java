@@ -33,5 +33,21 @@ public class SampleLL {
         int[] dataArray = new int[] {1,2,3,4,4,3,2,1};
         return getListFromArray(dataArray);
     }
+
+    public static LinkListNode sample4(){
+        int[] dataArray = new int[] {1,2,3,4};
+        return getListFromArray(dataArray);
+    }
+
+    public static LinkListNode sample5(){
+        int[] dataArray = new int[] {9,8,7,6,5};
+        return getListFromArray(dataArray);
+    }
+
+    public static LinkListNode sample6(){
+        int[] dataArray = new int[] {2,2,2,3,4,5,6,6,6,7,7,8,8,8,9,10,11,12,13};
+        return getListFromArray(dataArray);
+    }
+
     
 }
